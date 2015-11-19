@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<title>dudle</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel='stylesheet' type='text/css' href='./css/PrimeLife.css' title='PrimeLife' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./css/Barbie.css' title='Barbie' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./css/Stefanie.css' title='Stefanie' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./css/TUD.css' title='TUD' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./classic.css' title='classic' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./default.css' title='default' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./print.css' title='print' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./print.css' media='print' />
+<script type='text/javascript' src='./extensions/10_participate/lib/jquery-1.5.2.min.js'></script>
+<script type='text/javascript' src='./extensions/10_participate/lib/json2.js'></script>
+<script type='text/javascript' src='./extensions/10_participate/lib/Gettext.js'></script>
+<script type='text/javascript' src='./extensions/10_participate/lib/datejs/date-en-AU.js'></script>
+<style type="text/css">
+<!--
+.headerSort:after { 
+	content: "▴";
+} 
+.headerSortReverse:after { 
+	content: "▾";
+}
+[class=header]:after {
+	content: "▾▴";
+}
+-->
+</style>
+<script type='text/javascript' src='./extensions/asymcrypt/lib/aes-enc.js'></script>
+<script type='text/javascript' src='./extensions/asymcrypt/lib/base64.js'></script>
+<script type='text/javascript' src='./extensions/asymcrypt/lib/mouse.js'></script>
+<script type='text/javascript' src='./extensions/asymcrypt/lib/PGencode.js'></script>
+<script type='text/javascript' src='./extensions/asymcrypt/lib/PGpubkey.js'></script>
+<script type='text/javascript' src='./extensions/asymcrypt/lib/rsa.js'></script>
+<script type='text/javascript' src='./extensions/asymcrypt/lib/sha1.js'></script>
+<script type='text/javascript' src='./extensions/gpgauth/lib/openpgp.min.js'></script>
+<script type='text/javascript' src='./extensions/symcrypt/lib/sjcl.js'></script>
+</head>
+<body><div id="top"></div>
+<div id='header0'></div>
+<div id='header1'></div>
+<div id='header2'></div>
+<div id='header3'></div>
+<div id='header4'></div>
+<div id='header5'></div>
+<div id='breadcrumbs'><ul><li class='breadcrumb'><a href='http://tu-dresden.de'>TUD</a></li><li class='breadcrumb'>...</li><li class='breadcrumb'><a href='http://www.inf.tu-dresden.de'>Fakult&auml;t Informatik</a></li><li class='breadcrumb'><a href='http://dud.inf.tu-dresden.de'>Professur Datenschutz und Datensicherheit</a></li><li class='breadcrumb'><a href='.'>Dudle Home</a></li></ul></div>
+<div id='main'>
+<div id='tabs'><ul id='tablist'><li id='active_tab' class='active_tab' >&nbsp;Home&nbsp;</li> <li class='nonactive_tab' ><a href='example.cgi'>&nbsp;Examples&nbsp;</a></li> <li class='nonactive_tab' ><a href='about.cgi'>&nbsp;About&nbsp;</a></li> <li class='nonactive_tab' ><a href='customize.cgi'>&nbsp;Customize&nbsp;</a></li> </ul></div>
+<div id='content'>
+	<h1 id='polltitle'>dudle</h1>
+<h2>Create New Poll</h2>
+<form method='post' action='.'>
+<table  class='settingstable'>
+<tr>
+	<td class='label'><label for="poll_name">Title:</label></td>
+	<td><input id="poll_name" size='40' type='text' name='create_poll' value="" /></td>
+</tr>
+<tr>
+	<td class='label'>Type:</td>
+	<td>
+		<input id='chooseTime' type='radio' value='time' name='poll_type' checked='checked' />
+		<label for='chooseTime'>Event Schedule Poll (e.&thinsp;g., schedule a meeting)</label>
+		<br />
+		<input id='chooseNormal' type='radio' value='normal' name='poll_type' />
+		<label for='chooseNormal'>Normal Poll (e.&thinsp;g., vote for what is the best coffee)</label>
+	</td>
+</tr>
+<tr>
+	<td></td>
+	<td class='separator_bottom'><input type='submit' value='Create' /></td>
+</tr>
+<tr>
+	<td colspan='2' class='separator_top'>Custom address (optional):
+	<span class='hint'>May contain letters, numbers, and dashes.</span></td>
+</tr>
+<tr>
+	<td colspan='2'><label for="poll_url">https://dudle.inf.tu-dresden.de/unstable/</label><input id="poll_url" size='16' type='text' name='poll_url' value="" />
+	</td>
+</tr>
+<tr>
+	<td colspan='2' class='error'>
+		
+	</td>
+</tr>
+</table>
+</form>
+<h2>Warning</h2>
+<div class='textcolumn'>
+This is the unstable version of Dudle. 
+It contains all the shiny new features you want to use, as well as the shiny new bugs you do not want to use.
+If you want to do me a favour you should use this version as I will detect errors before they will be uploaded to <a href='../'>stable</a>.
+</div>
+</div>
+<div id='languageChooser'><ul>
+<li class='lang'>English</li>
+<li class='lang'><a href='?lang=es'>Español</a></li>
+<li class='lang'><a href='?lang=pt_BR'>Português brasileiro</a></li>
+<li class='lang'><a href='?lang=fr'>Français</a></li>
+<li class='lang'><a href='?lang=de'>Deutsch</a></li>
+<li class='lang'><a href='?lang=it'>Italiano</a></li>
+<li class='lang'><a href='?lang=nl'>Nederlands</a></li>
+<li class='lang'><a href='?lang=hu'>Magyar</a></li>
+<li class='lang'><a href='?lang=cs'>Česky</a></li>
+<li class='lang'><a href='?lang=ca'>Català</a></li>
+<li class='lang'><a href='?lang=sv'>Svenska</a></li>
+<li class='lang'><a href='?lang=gl'>Galego</a></li>
+</ul></div>
+</div>
+<div id='footer0'></div>
+<div id='footer1'></div>
+<div id='footer2'></div>
+<div id='footer3'></div>
+<div id='footer4'></div>
+<div id='footer5'></div>
+<script type='text/javascript' src='./extensions/10_participate/common.js'></script>
+<script type="text/javascript">
+// <![CDATA[
+Poll.Strings.SortDown = '&#9652;';
+Poll.Strings.SortUp = '&#9662;';
+Poll.Strings.NoSort = '&#9662;&#9652;';
+Poll.Strings.Edit = '✎';
+Poll.Strings.Delete = '&#10006;';
+Poll.Strings.Unknown = '&#8211;';
+Poll.Strings.KickOut = '&#10006;';
+Poll.Strings.Voted = '&#8226;';
+Poll.extDir = './extensions/10_participate';
+
+// ]]>
+</script>
+<script type='text/javascript' src='./extensions/asymcrypt/common.js'></script>
+<script type="text/javascript">
+// <![CDATA[
+Asymcrypt.extDir = './extensions/asymcrypt';
+Asymcrypt.passwordStar = '&#8226;';
+
+// ]]>
+</script>
+<script type='text/javascript' src='./extensions/gpgauth/common.js'></script>
+<script type="text/javascript">
+// <![CDATA[
+GPGAuth.extDir = './extensions/gpgauth';
+GPGAuth.passwordStar = '&#8226;';
+
+// ]]>
+</script>
+<script type='text/javascript' src='./extensions/symcrypt/common.js'></script>
+<script type="text/javascript">
+// <![CDATA[
+Symcrypt.extDir = './extensions/symcrypt';
+Symcrypt.passwordStar = '&#8226;';
+
+// ]]>
+</script>
+</body>
+
+</html>

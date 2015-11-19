@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<title>dudle - What is the best coffee? - Enquisa</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel='stylesheet' type='text/css' href='../css/TUD.css' title='TUD' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='../css/Barbie.css' title='Barbie' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='../css/PrimeLife.css' title='PrimeLife' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='../css/Stefanie.css' title='Stefanie' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='../css/TUD2.css' title='TUD2' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='../classic.css' title='classic' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='../default.css' title='default' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='../print.css' title='print' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='../print.css' media='print' />
+<link rel='alternate'  type='application/atom+xml' href='atom.cgi' />
+</head>
+<body><div id="top"></div>
+<div id='header0'></div>
+<div id='header1'></div>
+<div id='header2'></div>
+<div id='header3'></div>
+<div id='header4'></div>
+<div id='header5'></div>
+<div id='breadcrumbs'><ul><li class='breadcrumb'><a href='http://tu-dresden.de'>TUD</a></li><li class='breadcrumb'>...</li><li class='breadcrumb'><a href='http://www.inf.tu-dresden.de'>Fakult&auml;t Informatik</a></li><li class='breadcrumb'><a href='http://dud.inf.tu-dresden.de'>Professur Datenschutz und Datensicherheit</a></li><li class='breadcrumb'><a href='..'>Inicio de Dudle</a></li><li class='breadcrumb'>What is the best coffee?</li></ul></div>
+<div id='main'>
+<div id='tabs'><ul id='tablist'><li class='nonactive_tab' ><a href='..'>&nbsp;Inicio&nbsp;</a></li> <li class='separator_tab'></li><li id='active_tab' class='active_tab' >&nbsp;Enquisa&nbsp;</li> <li class='nonactive_tab' ><a href='history.cgi'>&nbsp;Histórico&nbsp;</a></li> <li class='separator_tab'></li><li class='nonactive_tab' ><a href='edit_columns.cgi'>&nbsp;Editar Columnas&nbsp;</a></li> <li class='nonactive_tab' ><a href='invite_participants.cgi'>&nbsp;Invitar Participantes&nbsp;</a></li> <li class='nonactive_tab' ><a href='access_control.cgi'>&nbsp;Control de Acceso&nbsp;</a></li> <li class='nonactive_tab' ><a href='overview.cgi'>&nbsp;Vista xeral&nbsp;</a></li> <li class='nonactive_tab' ><a href='delete_poll.cgi'>&nbsp;Eliminar Enquisa&nbsp;</a></li> <li class='separator_tab'></li><li class='nonactive_tab' ><a href='customize.cgi'>&nbsp;Configurar&nbsp;</a></li> </ul></div>
+<div id='content'>
+	<h1 id='polltitle'>What is the best coffee?</h1>
+<div id='polltable'>
+	<form method='post' action='.' accept-charset='utf-8'>
+		<table id='participanttable' class='polltable' border='1'>
+<thead><tr><th colspan='2'><a href='?sort=name'>Nome <span class='sortsymb'> &#9662;&#9652;</span>
+</a></th>
+<th title=""><a href="?sort=Arabica">Arabica<span class='sortsymb'> &#9662;&#9652;</span>
+</a></th><th title=""><a href="?sort=Excelsa">Excelsa<span class='sortsymb'> &#9662;&#9652;</span>
+</a></th><th title=""><a href="?sort=Kopi+Luwak">Kopi Luwak<span class='sortsymb'> &#9662;&#9652;</span>
+</a></th><th title=""><a href="?sort=Maragogype">Maragogype<span class='sortsymb'> &#9662;&#9652;</span>
+</a></th><th title=""><a href="?sort=Robusta">Robusta<span class='sortsymb'> &#9662;&#9652;</span>
+</a></th><th title=""><a href="?sort=Stenophylla">Stenophylla<span class='sortsymb'> &#9662;&#9652;</span>
+</a></th><th title=""><a href="?sort=c%C3%A0+ph%C3%AA+s%E1%BB%AFa+%C4%91%C3%A1">cà phê sữa đá<span class='sortsymb'> &#9662;&#9652;</span>
+</a></th><th><a href='?'>Última Edición <span class='sortsymb'> &#9652;</span>
+</a></th>
+</tr>
+</thead><tbody id='participants'><tr id="Alice_tr" class='participantrow'>
+<td><span class='edituser'><a title="Editar usuaria Alice..." href="?edituser=Alice">✎</a> | <a title="Eliminar usuaria Alice..." href="?deleteuser&amp;edituser=Alice">&#10006;</a></span></td><td class='name'><span id="Alice">Alice</span></td><td class="a_yes__" title="Alice: Arabica">&#10004;</td>
+<td class="c_no___" title="Alice: Excelsa">&#10008;</td>
+<td class="a_yes__" title="Alice: Kopi Luwak">&#10004;</td>
+<td class="c_no___" title="Alice: Maragogype">&#10008;</td>
+<td class="c_no___" title="Alice: Robusta">&#10008;</td>
+<td class="a_yes__" title="Alice: Stenophylla">&#10004;</td>
+<td class="a_yes__" title="Alice: cà phê sữa đá">&#10004;</td>
+<td class='date'>Thu Oct 25 18:43:29 2012</td></tr>
+<tr id="Bob_tr" class='participantrow'>
+<td><span class='edituser'><a title="Editar usuaria Bob..." href="?edituser=Bob">✎</a> | <a title="Eliminar usuaria Bob..." href="?deleteuser&amp;edituser=Bob">&#10006;</a></span></td><td class='name'><span id="Bob">Bob</span></td><td class="c_no___" title="Bob: Arabica">&#10008;</td>
+<td class="a_yes__" title="Bob: Excelsa">&#10004;</td>
+<td class="c_no___" title="Bob: Kopi Luwak">&#10008;</td>
+<td class="a_yes__" title="Bob: Maragogype">&#10004;</td>
+<td class="a_yes__" title="Bob: Robusta">&#10004;</td>
+<td class="c_no___" title="Bob: Stenophylla">&#10008;</td>
+<td class="c_no___" title="Bob: cà phê sữa đá">&#10008;</td>
+<td class='date'>Thu Oct 25 18:44:01 2012</td></tr>
+</tbody><tbody><tr id='separator_top'><td colspan='10' class='invisible'></td></tr>
+<tr id='add_participant'>
+<td colspan='2' id='add_participant_input_td'>
+	<input type='hidden' name='olduser' value="" />
+	<input size='16' 
+		type='text' 
+		name='add_participant'
+		id='add_participant_input'
+		value=""/>
+</td>
+<td class='checkboxes'><table class='checkboxes'>				<tr class='input-a_yes__'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='a_yes__' 
+							id="add_participant_checked_Arabica_a_yes__" 
+							name="add_participant_checked_Arabica" 
+							title="Arabica" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Arabica_a_yes__">&#10004;</label>
+					</td>
+			</tr>
+				<tr class='input-c_no___'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='c_no___' 
+							id="add_participant_checked_Arabica_c_no___" 
+							name="add_participant_checked_Arabica" 
+							title="Arabica" checked='checked'/>
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Arabica_c_no___">&#10008;</label>
+					</td>
+			</tr>
+				<tr class='input-b_maybe'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='b_maybe' 
+							id="add_participant_checked_Arabica_b_maybe" 
+							name="add_participant_checked_Arabica" 
+							title="Arabica" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Arabica_b_maybe">?</label>
+					</td>
+			</tr>
+</table></td><td class='checkboxes'><table class='checkboxes'>				<tr class='input-a_yes__'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='a_yes__' 
+							id="add_participant_checked_Excelsa_a_yes__" 
+							name="add_participant_checked_Excelsa" 
+							title="Excelsa" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Excelsa_a_yes__">&#10004;</label>
+					</td>
+			</tr>
+				<tr class='input-c_no___'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='c_no___' 
+							id="add_participant_checked_Excelsa_c_no___" 
+							name="add_participant_checked_Excelsa" 
+							title="Excelsa" checked='checked'/>
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Excelsa_c_no___">&#10008;</label>
+					</td>
+			</tr>
+				<tr class='input-b_maybe'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='b_maybe' 
+							id="add_participant_checked_Excelsa_b_maybe" 
+							name="add_participant_checked_Excelsa" 
+							title="Excelsa" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Excelsa_b_maybe">?</label>
+					</td>
+			</tr>
+</table></td><td class='checkboxes'><table class='checkboxes'>				<tr class='input-a_yes__'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='a_yes__' 
+							id="add_participant_checked_Kopi_Luwak_a_yes__" 
+							name="add_participant_checked_Kopi Luwak" 
+							title="Kopi Luwak" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Kopi_Luwak_a_yes__">&#10004;</label>
+					</td>
+			</tr>
+				<tr class='input-c_no___'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='c_no___' 
+							id="add_participant_checked_Kopi_Luwak_c_no___" 
+							name="add_participant_checked_Kopi Luwak" 
+							title="Kopi Luwak" checked='checked'/>
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Kopi_Luwak_c_no___">&#10008;</label>
+					</td>
+			</tr>
+				<tr class='input-b_maybe'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='b_maybe' 
+							id="add_participant_checked_Kopi_Luwak_b_maybe" 
+							name="add_participant_checked_Kopi Luwak" 
+							title="Kopi Luwak" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Kopi_Luwak_b_maybe">?</label>
+					</td>
+			</tr>
+</table></td><td class='checkboxes'><table class='checkboxes'>				<tr class='input-a_yes__'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='a_yes__' 
+							id="add_participant_checked_Maragogype_a_yes__" 
+							name="add_participant_checked_Maragogype" 
+							title="Maragogype" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Maragogype_a_yes__">&#10004;</label>
+					</td>
+			</tr>
+				<tr class='input-c_no___'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='c_no___' 
+							id="add_participant_checked_Maragogype_c_no___" 
+							name="add_participant_checked_Maragogype" 
+							title="Maragogype" checked='checked'/>
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Maragogype_c_no___">&#10008;</label>
+					</td>
+			</tr>
+				<tr class='input-b_maybe'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='b_maybe' 
+							id="add_participant_checked_Maragogype_b_maybe" 
+							name="add_participant_checked_Maragogype" 
+							title="Maragogype" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Maragogype_b_maybe">?</label>
+					</td>
+			</tr>
+</table></td><td class='checkboxes'><table class='checkboxes'>				<tr class='input-a_yes__'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='a_yes__' 
+							id="add_participant_checked_Robusta_a_yes__" 
+							name="add_participant_checked_Robusta" 
+							title="Robusta" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Robusta_a_yes__">&#10004;</label>
+					</td>
+			</tr>
+				<tr class='input-c_no___'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='c_no___' 
+							id="add_participant_checked_Robusta_c_no___" 
+							name="add_participant_checked_Robusta" 
+							title="Robusta" checked='checked'/>
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Robusta_c_no___">&#10008;</label>
+					</td>
+			</tr>
+				<tr class='input-b_maybe'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='b_maybe' 
+							id="add_participant_checked_Robusta_b_maybe" 
+							name="add_participant_checked_Robusta" 
+							title="Robusta" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Robusta_b_maybe">?</label>
+					</td>
+			</tr>
+</table></td><td class='checkboxes'><table class='checkboxes'>				<tr class='input-a_yes__'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='a_yes__' 
+							id="add_participant_checked_Stenophylla_a_yes__" 
+							name="add_participant_checked_Stenophylla" 
+							title="Stenophylla" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Stenophylla_a_yes__">&#10004;</label>
+					</td>
+			</tr>
+				<tr class='input-c_no___'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='c_no___' 
+							id="add_participant_checked_Stenophylla_c_no___" 
+							name="add_participant_checked_Stenophylla" 
+							title="Stenophylla" checked='checked'/>
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Stenophylla_c_no___">&#10008;</label>
+					</td>
+			</tr>
+				<tr class='input-b_maybe'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='b_maybe' 
+							id="add_participant_checked_Stenophylla_b_maybe" 
+							name="add_participant_checked_Stenophylla" 
+							title="Stenophylla" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_Stenophylla_b_maybe">?</label>
+					</td>
+			</tr>
+</table></td><td class='checkboxes'><table class='checkboxes'>				<tr class='input-a_yes__'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='a_yes__' 
+							id="add_participant_checked_c__ph__s_a____a_yes__" 
+							name="add_participant_checked_cà phê sữa đá" 
+							title="cà phê sữa đá" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_c__ph__s_a____a_yes__">&#10004;</label>
+					</td>
+			</tr>
+				<tr class='input-c_no___'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='c_no___' 
+							id="add_participant_checked_c__ph__s_a____c_no___" 
+							name="add_participant_checked_cà phê sữa đá" 
+							title="cà phê sữa đá" checked='checked'/>
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_c__ph__s_a____c_no___">&#10008;</label>
+					</td>
+			</tr>
+				<tr class='input-b_maybe'>
+					<td class='input-radio'>
+						<input type='radio' 
+							value='b_maybe' 
+							id="add_participant_checked_c__ph__s_a____b_maybe" 
+							name="add_participant_checked_cà phê sữa đá" 
+							title="cà phê sữa đá" />
+					</td>
+					<td class='input-label'>
+						<label for="add_participant_checked_c__ph__s_a____b_maybe">?</label>
+					</td>
+			</tr>
+</table></td><td><input id='savebutton' type='submit' value="Gardar" /></td>
+</tr>
+<tr id='separator_bottom'><td colspan='10' class='invisible'></td></tr>
+<tr id='summary'><td colspan='2' class='name'>Total</td>
+<td id="sum_Arabica" class="sum match_50" title="50%">1</td>
+<td id="sum_Excelsa" class="sum match_50" title="50%">1</td>
+<td id="sum_Kopi_Luwak" class="sum match_50" title="50%">1</td>
+<td id="sum_Maragogype" class="sum match_50" title="50%">1</td>
+<td id="sum_Robusta" class="sum match_50" title="50%">1</td>
+<td id="sum_Stenophylla" class="sum match_50" title="50%">1</td>
+<td id="sum_c__ph__s_a___" class="sum match_50" title="50%">1</td>
+<td class='invisible'></td></tr></tbody></table>
+
+	</form>
+</div>
+
+<div id='comments'><h2>Comentarios <a class='comment_sort' href='?comments_reverse' title='Orderar cos comentarios máis novos primeiro'>&#9652;</a></h2><form method='post' action='.' accept-charset='utf-8' id='newcomment'>
+	<div class='comment' id='add_comment'>
+		<input value="Anonymous" type='text' name='commentname' size='9' /> di&nbsp;
+		<br />
+		<textarea cols='50' rows='7' name='comment' ></textarea>
+		<br /><input type='submit' value='Enviar comentario' />
+	</div>
+</form>
+</div>
+
+</div>
+<div id='languageChooser'><ul>
+<li class='lang'><a href='?lang=en'>English</a></li>
+<li class='lang'><a href='?lang=es'>Español</a></li>
+<li class='lang'><a href='?lang=pt_BR'>Português brasileiro</a></li>
+<li class='lang'><a href='?lang=fr'>Français</a></li>
+<li class='lang'><a href='?lang=de'>Deutsch</a></li>
+<li class='lang'><a href='?lang=it'>Italiano</a></li>
+<li class='lang'><a href='?lang=nl'>Nederlands</a></li>
+<li class='lang'><a href='?lang=hu'>Magyar</a></li>
+<li class='lang'><a href='?lang=cs'>Česky</a></li>
+<li class='lang'><a href='?lang=ca'>Català</a></li>
+<li class='lang'><a href='?lang=sv'>Svenska</a></li>
+<li class='lang'>Galego</li>
+</ul></div>
+</div>
+<div id='footer0'></div>
+<div id='footer1'></div>
+<div id='footer2'></div>
+<div id='footer3'></div>
+<div id='footer4'></div>
+<div id='footer5'></div>
+</body>
+
+</html>

@@ -9,12 +9,17 @@ License:
    see file License
  
 === Installation ===
-1. Place this application into a directory where cgi-scripts are evaluated.
+1. Place this application into a directory where cgi-scripts are
+evaluated or create a soft link under cgi-bin to this directory:
+
+    cd /usr/local/src/dudle
+    ln -s /usr/local/src/dudle /var/www/localhost/cgi-bin/dudle
+    
 2. If you want to change some configuration, state it in the file »config.rb«
    (see config_sample.rb for help)
    to start with a default configuration.
 3. The webserver needs the permission to write into the directory 
-4. You need .mo files in order to use localisations. 
+4. If you want a language other than English, you need .mo files in order to use localisations. 
    You have 2 possibilities:
    a. Run this small script to fetch the files from the main server:
         cd $DUDLE_INSTALLATION_PATH
@@ -24,9 +29,14 @@ License:
    b. Build them on your own. This requires libgettext-ruby-util, potool, and make to be installed.
         sudo aptitude install libgettext-ruby-util potool make
         make
+	
 5. In order to let access control work correctly, the webserver needs 
-   auth_digest support. It therefore may help to type:
+   auth_digest support. If you are using Ubuntu, you can try:
      sudo a2enmod auth_digest
+   Otherwise in distributions which do not support a2enmod, you must
+   enable the module AUTH_DIGEST.  In Gentoo, add -D AUTH_DIGEST" to the APACHE2_OPTS
+   variable defined in  /etc/conf.d/apache2
+   
 6. In order to get atom-feed support you need ruby-ratom to be installed. E.g.:
      sudo aptitude install rubygems ruby-dev libxml2-dev zlib1g-dev
      sudo gem install ratom

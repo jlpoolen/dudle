@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+#!/usr/bin/ruby
 
 ############################################################################
 # Copyright 2009,2010 Benjamin Kellermann                                  #
@@ -84,7 +84,7 @@ unless $d.html.header["status"] == "REDIRECT"
 
 	createstr = _("Create")
 	$d << <<CREATE
-<form method='post' action='.'>
+<form method='post' action='index.cgi'>
 <table  class='settingstable'>
 <tr>
 	<td class='label'><label for="poll_name">#{titlestr}:</label></td>

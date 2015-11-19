@@ -1,0 +1,7 @@
+# This is a dudle poll file
+--- !ruby/object:Poll
+name: John3
+head: !ruby/object:TimePollHead
+  data: []
+data: {}
+comment: []

@@ -183,7 +183,7 @@ HEAD
 
 
 		###################
-		# init extenisons #
+		# init extensions #
 		###################
 		@extensions = []
 		$d = self # FIXME: this is dirty, but extensions need to know table elem 

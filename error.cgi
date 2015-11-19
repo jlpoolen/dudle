@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+#!/usr/bin/ruby
 
 ############################################################################
 # Copyright 2009,2010 Benjamin Kellermann                                  #

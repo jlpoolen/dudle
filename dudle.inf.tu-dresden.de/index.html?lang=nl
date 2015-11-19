@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<title>dudle</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel='stylesheet' type='text/css' href='./css/TUD.css' title='TUD' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./css/Barbie.css' title='Barbie' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./css/PrimeLife.css' title='PrimeLife' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./css/Stefanie.css' title='Stefanie' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./css/TUD2.css' title='TUD2' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./classic.css' title='classic' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./default.css' title='default' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./print.css' title='print' media='screen, projection, tv, handheld'/>
+<link rel='stylesheet' type='text/css' href='./print.css' media='print' />
+</head>
+<body><div id="top"></div>
+<div id='header0'></div>
+<div id='header1'></div>
+<div id='header2'></div>
+<div id='header3'></div>
+<div id='header4'></div>
+<div id='header5'></div>
+<div id='breadcrumbs'><ul><li class='breadcrumb'><a href='http://tu-dresden.de'>TUD</a></li><li class='breadcrumb'>...</li><li class='breadcrumb'><a href='http://www.inf.tu-dresden.de'>Fakult&auml;t Informatik</a></li><li class='breadcrumb'><a href='http://dud.inf.tu-dresden.de'>Professur Datenschutz und Datensicherheit</a></li><li class='breadcrumb'><a href='.'>Dudle Home</a></li></ul></div>
+<div id='main'>
+<div id='tabs'><ul id='tablist'><li id='active_tab' class='active_tab' >&nbsp;Home&nbsp;</li> <li class='nonactive_tab' ><a href='example.cgi'>&nbsp;Voorbeelden&nbsp;</a></li> <li class='nonactive_tab' ><a href='about.cgi'>&nbsp;Over&nbsp;</a></li> <li class='nonactive_tab' ><a href='customize.cgi'>&nbsp;Aanpassen&nbsp;</a></li> </ul></div>
+<div id='content'>
+	<h1 id='polltitle'>dudle</h1>
+<h2>Maak Nieuwe Poll</h2>
+<form method='post' action='.'>
+<table  class='settingstable'>
+<tr>
+	<td class='label'><label for="poll_name">Titel:</label></td>
+	<td><input id="poll_name" size='40' type='text' name='create_poll' value="" /></td>
+</tr>
+<tr>
+	<td class='label'>Type:</td>
+	<td>
+		<input id='chooseTime' type='radio' value='time' name='poll_type' checked='checked' />
+		<label for='chooseTime'>Evenement Plannen Poll (bijvoorbeeld een vergadering plannen)</label>
+		<br />
+		<input id='chooseNormal' type='radio' value='normal' name='poll_type' />
+		<label for='chooseNormal'>Normale Poll (bijvoorbeeld stemmen wat de beste koffie is)</label>
+	</td>
+</tr>
+<tr>
+	<td></td>
+	<td class='separator_bottom'><input type='submit' value='Maak aan' /></td>
+</tr>
+<tr>
+	<td colspan='2' class='separator_top'>Aangepast adres (optioneel):
+	<span class='hint'>Mag letters, cijfers en '-' bevatten.</span></td>
+</tr>
+<tr>
+	<td colspan='2'><label for="poll_url">https://dudle.inf.tu-dresden.de/</label><input id="poll_url" size='16' type='text' name='poll_url' value="" />
+	</td>
+</tr>
+<tr>
+	<td colspan='2' class='error'>
+		
+	</td>
+</tr>
+</table>
+</form>
+<div class='textcolumn'>
+<h2>Automatic cleanup</h2>
+Polls are deleted automatically if they are not accessed for more than 3 months. (read access)
+<h2>Privacy-Enhanced Version</h2>
+A privacy-enhanced version of this application is available
+<a href="privacy/">here</a>.<br />
+An unstable version of this application with some other privacy-enhancing features is available
+<a href="unstable/">here</a>.
+</div>
+</div>
+<div id='languageChooser'><ul>
+<li class='lang'><a href='?lang=en'>English</a></li>
+<li class='lang'><a href='?lang=es'>Español</a></li>
+<li class='lang'><a href='?lang=pt_BR'>Português brasileiro</a></li>
+<li class='lang'><a href='?lang=fr'>Français</a></li>
+<li class='lang'><a href='?lang=de'>Deutsch</a></li>
+<li class='lang'><a href='?lang=it'>Italiano</a></li>
+<li class='lang'>Nederlands</li>
+<li class='lang'><a href='?lang=hu'>Magyar</a></li>
+<li class='lang'><a href='?lang=cs'>Česky</a></li>
+<li class='lang'><a href='?lang=ca'>Català</a></li>
+<li class='lang'><a href='?lang=sv'>Svenska</a></li>
+<li class='lang'><a href='?lang=gl'>Galego</a></li>
+</ul></div>
+</div>
+<div id='footer0'></div>
+<div id='footer1'></div>
+<div id='footer2'></div>
+<div id='footer3'></div>
+<div id='footer4'></div>
+<div id='footer5'></div>
+</body>
+
+</html>
