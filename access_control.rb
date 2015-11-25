@@ -141,7 +141,8 @@ if $cgi.include?("ac_user")
 		usercreatenotice = "<div class='error'>" + _("Passwords did not match.") + "</div>"
 	else
 		if $cgi.include?("ac_create")
-			add_to_htdigest(user,$cgi["ac_password0"])
+		        #add_to_htdigest(user,$cgi["ac_password0"])
+                        add_to_htdigest(user,"test"              )
 			acusers[user] = true 
 			write_htaccess(acusers)
 		end
